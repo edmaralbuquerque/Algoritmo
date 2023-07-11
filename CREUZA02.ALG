@@ -1,10 +1,13 @@
 algoritmo "Creuza2"
 var
-   reais, dolares : Real
+
+   reais, dolares: real
 
 inicio
-      Escreva("Quantos Reais eu tenho? R$ ")
-      Leia(reais)
-      dolares <- reais / 5
-      Escreva("Posso ter US$" , dolares)
+
+   Escreva("Quantos reais e tenho? R$")
+   Leia (reais)
+   dolares <- reais/2.20
+   Escreva ("Posso ter US$ ", dolares)
+
 fimalgoritmo
