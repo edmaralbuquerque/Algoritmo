@@ -1,49 +1,55 @@
 algoritmo "EscolaSantaPaciencia"
 var
 
-   Nome1, Nome2, Nome3, Nome4: Inteiro
+   Primeiro, Segundo, Terceiro, Quarto: Caractere
    nota1, nota2, nota3, nota4: Inteiro
 
 inicio
 
    Escreval ("Qual nome do Aluno 1? ")
-   Leia (Nome1)
+   Leia(Primeiro)
    Escreval ("Qual a nota do Aluno 1? ")
-   Leia (Nota1)
+   Leia(nota1)
 
    Escreval ("Qual nome do Aluno 2? ")
-   Leia (Nome2)
+   Leia(Segundo)
    Escreval ("Qual a nota do Aluno 2? ")
-   Leia (Nota2)
+   Leia (nota2)
 
    Escreval ("Qual nome do Aluno 3? ")
-   Leia (Nome3)
+   Leia(Terceiro)
    Escreval ("Qual a nota do Aluno 3? ")
-   Leia (Nota3)
+   Leia (nota3)
 
    Escreval ("Qual nome do Aluno 4? ")
-   Leia (Nome4)
+   Leia(Quarto)
    Escreval ("Qual a nota do Aluno 4? ")
-   Leia (Nota4)
+   Leia (nota4)
 
    EscrevaL ("Aluno 1")
-   Escreval ("Nome do aluno: ", Nome1)
-   Escreval ("Nota de ", Nome1, ": ", nota1)
+   Escreval ("Nome do aluno: ", Primeiro)
+   Escreval ("Nota de ", Primeiro, ": ", nota1)
    Escreval ("----------------------------------")
 
    EscrevaL ("Aluno 2")
-   Escreval ("Nome do aluno: ", Nome2)
-   Escreval ("Nota de ", Nome2, ": ", nota2)
+   Escreval ("Nome do aluno: ", Segundo)
+   Escreval ("Nota de ", Segundo, ": ", nota2)
    Escreval ("----------------------------------")
 
    EscrevaL ("Aluno 3")
-   Escreval ("Nome do aluno: ", (Nome3))
-   Escreval ("Nota de ", Nome3, ": ", nota3)
+   Escreval ("Nome do aluno: ", Terceiro)
+   Escreval ("Nota de ", Terceiro, ": ", nota3)
    Escreval ("----------------------------------")
 
    EscrevaL ("Aluno 4")
-   Escreval ("Nome do aluno: ", Nome4)
-   Escreval ("Nota de ", Nome4, ": ", nota4)
+   Escreval ("Nome do aluno: ", Quarto)
+   Escreval ("Nota de ", Quarto, ": ", nota4)
    Escreval ("----------------------------------")
+   
+   Maior <- (se
+   Primeiro >= Segundo e Terceiro e Quarto
+   Entao ("A Maior nota é ", Maior)
+   
+   
 
 fimalgoritmo
