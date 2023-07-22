@@ -1,4 +1,6 @@
 algoritmo "ContagemAutomatica"
+// Disciplina   : [Linguagem e Lógica de Programação] 
+// Professor   : Antonio Carlos Nicolodi 
 var
 
    Comeco, fim, contador : Inteiro
