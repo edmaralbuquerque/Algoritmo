@@ -1,25 +1,40 @@
-Algoritmo "No v a E s c o l a "
+Algoritmo "NovaEscola"
 
 
 Var
 
-   Nota, Qtdd, Sala: Real
-   Nome: Caractere
-
+   Qtdd, Sala: Inteiro
+   Nome, MelhorAluno: Caractere
+   Nota, MaiorNota: Real
 
 Inicio
 
-   Sala <- 0
-   Enquanto (Sala < = 4) faca
-      Escreval ("Quantos alunos a turma tem?")
-      Leia (Qtdd)
 
-      Escreval ("Nome do ALuno:")
+   Escreval ("NovaEscola")
+   Escreval ("----------")
+
+   Escreval ("Quantos alunos a turma tem?")
+   Leia (Qtdd)
+   Sala <- 1
+
+   Enquanto (Sala <= Qtdd) faca
+
+      Escreval ("ALuno ", Qtdd)
+      Escreval ("Nome do aluno: ")
       Leia (Nome)
-      Escreval ("Nota de ",Nome)
+      Escreval ("Nota de ", Nome, ": ")
       Leia (Nota)
+      Se (Nota > MaiorNota) entao
+         MaiorNota <- Nota
+         MelhorAluno <- Nome
+
+      FimSe
+
+      Qtdd <- Qtdd + 1
 
    FimEnquanto
 
+   Escreval ("------------------------")
+   Escreval ("A melhor nota foi de ", MelhorAluno, " com a nota ", Nota)
 
 Fimalgoritmo
