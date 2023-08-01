@@ -1,15 +1,19 @@
 algoritmo "Somador2"
 var
-   N, Cont, S: Inteiro
+   N, S: Inteiro
+   Resp: Caractere
+   
 inicio
 
    S <- 0
-   Cont <- 1
-   Enquanto (Cont <= 5) faca
-      Escreva ("Digite o ", Cont, "o. valor ==> ")
+   Resp <- "S"
+      Enquanto (Resp = "S") faca
+      Escreva ("Digite o  valor ==> ")
       Leia (N)
       S <- S + N
-      Cont <- COnt + 1
+      Escreva ("Voce quer continuar? [S/N] ")
+      Leia (Resp)
+      
    FimEnquanto
    Escreval ("A soma de tdos os valores digitadr é ", S)
 
