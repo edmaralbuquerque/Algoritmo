@@ -1,6 +1,7 @@
 algoritmo "Somador2"
 var
    N, S: Inteiro
+   
    Resp: Caractere
    
 inicio
@@ -9,9 +10,9 @@ inicio
    Resp <- "S"
       Enquanto (Resp = "S") faca
       Escreva ("Digite o  valor ==> ")
-      Leia (N)
+      Leia(N)
       S <- S + N
-      Escreva ("Voce quer continuar? [S/N] ")
+      Escreva("Voce quer continuar? [S/N] ")
       Leia (Resp)
       
    FimEnquanto
